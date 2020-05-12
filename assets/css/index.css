@@ -9,7 +9,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 10 20px;
-  padding: 5px 20px 5px 20px;
+  padding: 5px 20px 0 20px;
 }
 
 .left {
@@ -37,18 +37,22 @@
   text-decoration: underline;
 }
 .right {
-  /* margin-right: 20px;
-  padding-top: 15px; */
   align-self: center;
   justify-self: end;
 }
 
 .right button {
   color: #fff;
-  background-color: #326891;
+  background-color: #4680ac;
   border: none;
-  border-radius: 6px;
+  border-radius: 3px;
   height: 30px;
+  font-weight: 600;
+  padding: 0 10px;
+}
+
+.right button:hover{
+  background-color: #326891;
 }
 .center {
   align-self: center;
