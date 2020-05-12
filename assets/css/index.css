@@ -1,6 +1,6 @@
 @import "./reset.css";
 
-*a{
+*a {
   text-decoration: none;
 }
 
@@ -9,39 +9,51 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 10 20px;
+  padding: 5px 20px 5px 20px;
 }
 
-.left{
-  margin-left:10px;
-  padding-top: 20px;
+.left {
+  /* margin-left:10px;
+  padding-top: 20px; */
+  align-self: center;
+  justify-self: start;
+  display: flex;
 }
 
 .left img {
   width: 16px;
-  padding-left: 20px;
   vertical-align: middle;
 }
-
-.left span a{
+.menu-icon {
+  margin-right: 20px;
+}
+.left span a {
   padding-left: 20px;
   color: black;
-  font-weight:800;
+  font-weight: 800;
+  text-decoration: none;
 }
-
+.left span a:hover {
+  text-decoration: underline;
+}
 .right {
-  margin-right: 20px;
-  padding-top: 15px;
+  /* margin-right: 20px;
+  padding-top: 15px; */
+  align-self: center;
+  justify-self: end;
 }
 
-.right button{
-  color:#fff;
+.right button {
+  color: #fff;
   background-color: #326891;
+  border: none;
   border-radius: 6px;
   height: 30px;
 }
-
+.center {
+  align-self: center;
+  justify-self: center;
+}
 .center img {
   width: 195px;
-  padding-top: 20px;
 }
-
