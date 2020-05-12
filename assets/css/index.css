@@ -1,1 +1,12 @@
 @import "./reset.css";
+
+.nav-bar {
+  display: flex;
+}
+.left img {
+  width: 16px;
+}
+
+.center img {
+  width: 195px;
+}
