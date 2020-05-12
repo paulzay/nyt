@@ -82,3 +82,11 @@
 .img img {
   width: 100%;
 }
+
+.caption{
+  color: #CDCECD;
+}
+.title-caption{
+  text-align: left;
+  color: #888888;
+}
