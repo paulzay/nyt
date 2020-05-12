@@ -134,3 +134,12 @@
 .text {
   margin-top: 24px;
 }
+.text p{
+  margin-top: 20px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #333;
+}
+.text p a{
+  color: #4680ac;
+}
