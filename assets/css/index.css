@@ -51,7 +51,7 @@
   padding: 0 10px;
 }
 
-.right button:hover{
+.right button:hover {
   background-color: #326891;
 }
 .center {
@@ -60,4 +60,25 @@
 }
 .center img {
   width: 195px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
+  margin-top: 40px;
+}
+.title {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  margin-bottom: 30px;
+}
+.title h1 {
+  font-size: 2.5rem;
+  font-family: "Ashbury W01 Bold Italic", nyt-cheltenham, georgia,
+    "times new roman", times, serif;
+}
+.img {
+  grid-column: 2/5;
+}
+.img img {
+  width: 100%;
 }
