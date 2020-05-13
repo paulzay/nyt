@@ -286,19 +286,50 @@
 .foot-socials li {
   margin-left: 10px;
 }
-.popular-space {
-  margin: 5px 6vw 0 6vw;
+
+.pre-footer{
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
+}
+
+.popular-space{
+  margin-left: 40px;
+  width: 80%;
+}
+.most-popular{
+  width: 20%;
 }
 .space {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+.popular-space h1{
+  padding-bottom: 30px;
+}
 .ppl-item {
   width: 33%;
 }
+.ppl-item h2{
+  color: rgb(18, 18, 18);
+  font-size: 1.125rem;
+  line-height: 22px;
+}
+.ppl-item p{
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  letter-spacing: 0.3px;
+  color: rgb(153, 153, 153);
+  text-transform: capitalize;
+}
+.ppl-item h3{
+text-align: right;
+font-size: 12px;
+margin-right: 12px;
+color: #888; ;
+}
 .ppl-item img {
-  width: 100%;
+  width: 320px;
+  display: block;
 }
