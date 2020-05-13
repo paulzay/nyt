@@ -173,3 +173,24 @@
   line-height: 1.875rem;
   color: #333;
 }
+.accounts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px auto;
+  }
+.accounts p{
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: auto;
+  line-height: 1.6em;
+ 
+}
+.accounts p a{
+  text-decoration: none;
+}
+.div-line{
+  border: .05px solid lightgrey;
+  width: 60px;
+  margin: 15px auto;
+}
