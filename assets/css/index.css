@@ -24,18 +24,31 @@
   width: 16px;
   vertical-align: middle;
 }
+
 .menu-icon {
   margin-right: 20px;
 }
+
+.article a {
+  color: #333;
+  text-decoration: underline;
+}
+
+.text p a {
+  color: #4680ac;
+}
+
 .left span a {
   padding-left: 20px;
   color: black;
   font-weight: 800;
   text-decoration: none;
 }
+
 .left span a:hover {
   text-decoration: underline;
 }
+
 .right {
   align-self: center;
   justify-self: end;
@@ -54,31 +67,43 @@
 .right button:hover {
   background-color: #326891;
 }
+
 .center {
   align-self: center;
   justify-self: center;
 }
+
 .center img {
   width: 195px;
 }
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
   margin-top: 40px;
 }
+
 .title {
   grid-column: 3/4;
   grid-row: 1/2;
   margin-bottom: 30px;
 }
+
 .title h1 {
   font-size: 2.5rem;
-  font-family: "Ashbury W01 Bold Italic", nyt-cheltenham, georgia,
-    "times new roman", times, serif;
+  font-family:
+    "Ashbury W01 Bold Italic",
+    nyt-cheltenham,
+    georgia,
+    "times new roman",
+    times,
+    serif;
 }
+
 .img {
   grid-column: 2/5;
 }
+
 .img img {
   width: 100%;
 }
@@ -86,60 +111,64 @@
 .caption {
   color: #cdcecd;
 }
+
 .title-caption {
   text-align: left;
-  color: #888888;
+  color: #888;
   grid-column: 2/4;
   font-size: 18px;
   margin-bottom: 40px;
 }
+
 .article {
   grid-column: 3/4;
 }
+
 .auther {
-  color: #333333;
+  color: #333;
   font-size: 22px;
   margin-bottom: 5px;
 }
-.article a {
-  color: #333333;
-  text-decoration: underline;
-}
+
 .date {
   margin-top: 40px;
 }
+
 .socials {
   float: right;
 }
+
 .socaials-list li {
   display: inline-block;
   width: 24px;
   height: 24px;
 }
+
 .socaials-list img {
   width: 14px;
   height: 14px;
   text-align: center;
   vertical-align: middle;
 }
+
 .btn {
   border-radius: 50%;
   background-color: #eee;
   vertical-align: baseline;
   text-align: center;
 }
+
 .sub-info {
   margin-top: 10px;
 }
+
 .text {
   margin-top: 24px;
 }
-.text p{
+
+.text p {
   margin-top: 20px;
   font-size: 1.25rem;
   line-height: 1.875rem;
   color: #333;
-}
-.text p a{
-  color: #4680ac;
 }
