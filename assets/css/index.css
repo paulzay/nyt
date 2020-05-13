@@ -176,7 +176,7 @@
   line-height: 1.875rem;
   color: #333;
 }
-.text h2{
+.text h2 {
   font-weight: 700;
   font-size: 20px;
   margin: 20px auto;
@@ -248,41 +248,57 @@
   width: 100%;
   height: 300px;
 }
-.yt-cap1{
+.yt-cap1 {
   color: #666;
 }
-.yt-cap2{
+.yt-cap2 {
   color: #888;
   font-size: 12px;
 }
-.yt-caps{
+.yt-caps {
   margin-top: 10px;
   vertical-align: auto;
   width: 80%;
 }
-.sattelite img{
+.sattelite img {
   width: 100%;
   height: auto;
   margin-top: 40px;
   margin-bottom: 10px;
 }
-.sat1{
+.sat1 {
   color: #666;
 }
-.sat2{
+.sat2 {
   color: #888;
   font-size: 12px;
 }
-.sattelite{
+.sattelite {
   margin-bottom: 40px;
 }
-.text-footer p{
+.text-footer p {
   color: #888;
   font-size: 12px;
 }
-.text-footer p a{
+.text-footer p a {
   color: #888;
 }
-.foot-socials li{
+.foot-socials li {
   margin-left: 10px;
+}
+.popular-space {
+  margin: 5px 6vw 0 6vw;
+  display: flex;
+  justify-content: space-between;
+}
+.space {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.ppl-item {
+  width: 33%;
+}
+.ppl-item img {
+  width: 100%;
 }
