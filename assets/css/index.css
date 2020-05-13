@@ -1,20 +1,27 @@
 @import "./reset.css";
-
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 *a {
   text-decoration: none;
 }
-
+.fixed-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
 .nav-bar {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin: 10 20px;
   padding: 5px 20px 0 20px;
+  border-bottom: 1px solid gray;
+  background-color: white;
 }
 
 .left {
-  /* margin-left:10px;
-  padding-top: 20px; */
   align-self: center;
   justify-self: start;
   display: flex;
@@ -62,6 +69,7 @@
   height: 30px;
   font-weight: 600;
   padding: 0 10px;
+  margin-bottom: 3px;
 }
 
 .right button:hover {
@@ -92,13 +100,8 @@
 .title h1 {
   font-size: 2.5rem;
   font-style: italic;
-  font-family:
-    "Ashbury W01 Bold Italic",
-    nyt-cheltenham,
-    georgia,
-    "times new roman",
-    times,
-    serif;
+  font-family: "Ashbury W01 Bold Italic", nyt-cheltenham, georgia,
+    "times new roman", times, serif;
 }
 
 .img {
@@ -173,24 +176,68 @@
   line-height: 1.875rem;
   color: #333;
 }
-.accounts{
+.accounts {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 20px auto;
-  }
-.accounts p{
+}
+.accounts p {
   font-weight: bold;
   font-size: 14px;
   margin-top: auto;
   line-height: 1.6em;
- 
 }
-.accounts p a{
+.accounts p a {
   text-decoration: none;
 }
-.div-line{
-  border: .05px solid lightgrey;
+.div-line {
+  border: 0.05px solid lightgrey;
   width: 60px;
   margin: 15px auto;
+}
+.inflation {
+  grid-column: 2/5;
+}
+.inflation-item {
+  position: relative;
+  font-size: 14px;
+  font-weight: 300;
+}
+.bold {
+  font-weight: bold;
+}
+.inflation-img {
+  max-width: 100%;
+  min-width: 820px;
+}
+.box {
+  position: absolute;
+  width: 23%;
+}
+.line-one {
+  top: 24%;
+}
+.line-two {
+  top: 75%;
+}
+.box1,
+.box5 {
+  left: 1%;
+}
+.box2,
+.box6 {
+  left: 26%;
+}
+.box3,
+.box7 {
+  left: 51%;
+}
+.box4,
+.box8 {
+  left: 76%;
+}
+.youtube-video {
+  width: 100%;
+  height: 300px;
 }
