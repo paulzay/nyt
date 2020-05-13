@@ -287,49 +287,79 @@
   margin-left: 10px;
 }
 
-.pre-footer{
+.pre-footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin: 40px 6vw 0 6vw;
 }
 
-.popular-space{
-  margin-left: 40px;
-  width: 80%;
+.popular-space {
+  width: 70%;
+  border-top: 1px solid gray;
+  padding-top: 20px;
 }
-.most-popular{
-  width: 20%;
-}
+
 .space {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.popular-space h1{
-  padding-bottom: 30px;
+.popular-space h1 {
+  padding-bottom: 25px;
 }
 .ppl-item {
-  width: 33%;
+  width: 32%;
+  margin-right: 10px;
 }
-.ppl-item h2{
+.last-item {
+  margin-right: 0;
+  margin-bottom: 40px;
+}
+.ppl-item h2 {
   color: rgb(18, 18, 18);
-  font-size: 1.125rem;
+  font-size: 1rem;
   line-height: 22px;
+  width: 90%;
 }
-.ppl-item p{
+.ppl-item p {
   font-size: 0.75rem;
   line-height: 1.25rem;
   letter-spacing: 0.3px;
   color: rgb(153, 153, 153);
   text-transform: capitalize;
 }
-.ppl-item h3{
-text-align: right;
-font-size: 12px;
-margin-right: 12px;
-color: #888; ;
+.ppl-item h3 {
+  text-align: right;
+  font-size: 12px;
+  /* margin-right: 10%; */
+  margin-top: 7px;
+  margin-bottom: 7px;
+  color: #888;
 }
 .ppl-item img {
-  width: 320px;
+  width: 100%;
   display: block;
+}
+.most-popular {
+  width: 30%;
+  padding-top: 25px;
+  margin-left: 40px;
+  border-top: 1px solid gray;
+}
+.most-popular h1 {
+  margin-bottom: 20px;
+}
+.list-articls a {
+  text-decoration: none;
+  color: black;
+}
+.list-articls a:hover {
+  color: gray;
+}
+.list-articls h1 {
+  margin-bottom: 20px;
+  border-top: 1px solid rgb(226, 226, 226);
+  padding-top: 20px;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
 }
