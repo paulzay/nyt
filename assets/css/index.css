@@ -1,4 +1,14 @@
 @import "./reset.css";
+@font-face {
+  font-family: "ashburyw01-bolditalicregular";
+  src: url("../Ashbury\ W01\ Bold\ Italic/ashbury_w01_bold_italic-webfont.woff2")
+      format("woff2"),
+    url("../Ashbury\ W01\ Bold\ Italic/ashbury_w01_bold_italic-webfont.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -88,19 +98,20 @@
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 4fr 1fr 1fr;
-  margin-top: 40px;
+  margin-top: 70px;
 }
 
 .title {
   grid-column: 3/4;
   grid-row: 1/2;
   margin-bottom: 30px;
+  width: 80%;
 }
 
 .title h1 {
   font-size: 2.5rem;
   font-style: italic;
-  font-family: "Ashbury W01 Bold Italic", nyt-cheltenham, georgia,
+  font-family: "ashburyw01-bolditalicregular", nyt-cheltenham, georgia,
     "times new roman", times, serif;
 }
 
@@ -204,6 +215,10 @@
 }
 .inflation {
   grid-column: 2/5;
+  padding-top: 20px;
+}
+.inflation h1 {
+  padding-bottom: 10px;
 }
 .inflation-item {
   position: relative;
@@ -365,52 +380,81 @@
 }
 /**footer*/
 
-footer{
+footer {
   margin: 20px 6vw;
 }
-.foot-logo{
+.two-lines {
+  border-top: 1px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
+  height: 1px;
+  margin-bottom: 20px;
+}
+.foot-logo {
   display: flex;
   justify-content: space-between;
 }
-.foot-logo img{
+.foot-logo img {
   width: 200px;
   vertical-align: middle;
 }
-.foot-logo p{
+.foot-logo p {
   font-size: 10px;
 }
-.foot-itms{
+.foot-itms {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
-.news{
+.go-home {
+  text-decoration: none;
+}
+.news {
   display: flex;
   flex-direction: column;
-
 }
-.news h1{
+.news h1 {
   margin-bottom: 20px;
   font-size: 14px;
   color: rgb(51, 51, 51);
   font-weight: 700;
 }
-.news ul li{
+.news ul li {
   margin-bottom: 10px;
 }
-.news ul li a{
+.news ul li a {
   text-decoration: none;
   color: #333;
   font-size: 13px;
   font-weight: 500;
 }
-.copyrights ul{
+.copyrights ul {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
 }
-.copyrights ul li a{
+.copyrights ul li a {
   text-decoration: none;
   color: #666;
   font-size: 11px;
+}
+.icon-footer {
+  display: inline-block;
+  height: 13px;
+  width: 13px;
+  margin-right: 7px;
+  vertical-align: middle;
+}
+.news span {
+  font-size: 16px;
+  color: black;
+}
+.news li a:hover {
+  text-decoration: underline;
+}
+.more {
+  border-top: 1px solid gray;
+  padding-top: 10px;
+}
+.small {
+  font-size: 10px !important;
 }
