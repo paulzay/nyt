@@ -452,9 +452,13 @@ footer {
   text-decoration: underline;
 }
 .more {
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
   padding-top: 10px;
 }
 .small {
   font-size: 10px !important;
+}
+.sub{
+  border-left: 1px solid lightgray;
+  padding-left: 20px;
 }
