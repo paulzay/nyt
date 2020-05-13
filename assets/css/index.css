@@ -363,3 +363,54 @@
   font-size: 1.1875rem;
   line-height: 1.4375rem;
 }
+/**footer*/
+
+footer{
+  margin: 20px 6vw;
+}
+.foot-logo{
+  display: flex;
+  justify-content: space-between;
+}
+.foot-logo img{
+  width: 200px;
+  vertical-align: middle;
+}
+.foot-logo p{
+  font-size: 10px;
+}
+.foot-itms{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.news{
+  display: flex;
+  flex-direction: column;
+
+}
+.news h1{
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+}
+.news ul li{
+  margin-bottom: 10px;
+}
+.news ul li a{
+  text-decoration: none;
+  color: #333;
+  font-size: 13px;
+  font-weight: 500;
+}
+.copyrights ul{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.copyrights ul li a{
+  text-decoration: none;
+  color: #666;
+  font-size: 11px;
+}
