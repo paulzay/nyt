@@ -5,10 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>New York Times</title>
     <link rel="stylesheet" href="./assets/css/index.css" />
-    <link
-      rel="import"
-      href="assets/Ashbury W01 Bold Italic/Ashbury W01 Bold Italic.ttf"
-    />
   </head>
   <body>
     <div class="fixed-nav">
@@ -42,13 +38,15 @@
       </div>
       <div class="img">
         <img src="assets/img/18cosmos-superJumbo.jpg.webp" alt="artical-img" />
+
+        <p class="title-caption">
+          Alan Guth was one of the first physicists to hypothesize the existence
+          of inflation, which explains how the universe expanded so uniformly
+          and so quickly in the instant after the Big Bang 13.8 billion years
+          ago.
+          <span class="caption">Rick Friedman for The New York Times</span>
+        </p>
       </div>
-      <figcaption class="title-caption">
-        Alan Guth was one of the first physicists to hypothesize the existence
-        of inflation, which explains how the universe expanded so uniformly and
-        so quickly in the instant after the Big Bang 13.8 billion years ago.
-        <span class="caption">Rick Friedman for The New York Times</span>
-      </figcaption>
       <div class="article">
         <h1 class="auther">By<a href="#"> Dennis Overbye</a></h1>
         <div class="sub-info">
@@ -308,8 +306,6 @@
             <iframe
               class="youtube-video"
               src="https://www.youtube.com/embed/ZlfIVEy_YOA"
-              frameborder="0"
-              allowfullscreen="true"
             ></iframe>
             <figcaption class="yt-caps">
               <span class="yt-cap1">
@@ -619,7 +615,7 @@
           </div>
         </div>
         <aside class="editor">
-          <h1>Editor's Picks</h1>
+          <h2>Editor's Picks</h2>
           <div class="space">
             <div class="ppl-item">
               <img
@@ -896,12 +892,11 @@
             <li><a class="small" href="#">Email Newsletters</a></li>
             <li><a class="small" href="#">Corporate Subscriptions</a></li>
             <li><a class="small" href="#">Education Rate</a></li>
-            <div class="more">
-              <li><a class="small" href="#">Mobile Applications</a></li>
-              <li><a class="small" href="#">Replica Edition</a></li>
-              <li><a class="small" href="#">Español</a></li>
-              <li><a class="small" href="#">中文网</a></li>
-            </div>
+            <li class="more"></li>
+            <li><a class="small" href="#">Mobile Applications</a></li>
+            <li><a class="small" href="#">Replica Edition</a></li>
+            <li><a class="small" href="#">Español</a></li>
+            <li><a class="small" href="#">中文网</a></li>
           </ul>
         </div>
       </div>
@@ -923,11 +918,11 @@
         </ul>
       </div>
     </footer>
+    <div class="fixed-footer">
+      <span>Up-to-date information on coronavirus is available for free</span>
+      <span class="expand"
+        >EXPAND <img src="assets/img/icon-arrow.svg" alt="icon-arrow" />
+      </span>
+    </div>
   </body>
-  <div class="fixed-footer">
-    <span>Up-to-date information on coronavirus is available for free</span>
-    <span class="expand"
-      >EXPAND <img src="assets/img/icon-arrow.svg" alt="icon-arrow" />
-    </span>
-  </div>
 </html>

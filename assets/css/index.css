@@ -2,11 +2,10 @@
 
 @font-face {
   font-family: "ashburyw01-bolditalicregular";
-  src:
-    url("../Ashbury\ W01\ Bold\ Italic/ashbury_w01_bold_italic-webfont.woff2")
-    format("woff2"),
+  src: url("../Ashbury\ W01\ Bold\ Italic/ashbury_w01_bold_italic-webfont.woff2")
+      format("woff2"),
     url("../Ashbury\ W01\ Bold\ Italic/ashbury_w01_bold_italic-webfont.woff")
-    format("woff");
+      format("woff");
   font-weight: normal;
   font-style: normal;
 }
@@ -154,13 +153,8 @@
 .title h1 {
   font-size: 2.5rem;
   font-style: italic;
-  font-family:
-    "ashburyw01-bolditalicregular",
-    nyt-cheltenham,
-    georgia,
-    "times new roman",
-    times,
-    serif;
+  font-family: "ashburyw01-bolditalicregular", nyt-cheltenham, georgia,
+    "times new roman", times, serif;
 }
 
 .img {
@@ -546,7 +540,7 @@ footer {
 
 .more {
   border-top: 1px solid lightgray;
-  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .small {
@@ -576,7 +570,9 @@ footer {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+.editor h2 {
+  padding-bottom: 25px;
+}
 .expand {
   cursor: pointer;
   margin-left: 40%;
