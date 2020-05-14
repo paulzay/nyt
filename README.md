@@ -9,7 +9,7 @@ PROJECT: POSITIONING AND FLOATING ELEMENTS
 
 ## Live Demo
 
-[Live Demo Link](https://paulzay.github.io/nyt/)
+[Live Demo Link](https://rawcdn.githack.com/paulzay/nyt/7039cf7658489fedbacbc42a659162faaff2f55a/index.html)
 
 # Getting Started 🚀
 
