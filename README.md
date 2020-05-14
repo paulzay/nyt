@@ -38,16 +38,17 @@ $ cd nyt
 
 👤 **Rida Elbahtouri**
 
-- [Github](https://github.com/)
-- [Twitter](https://twitter.com/)
-- [Linkedin](https://linkedin.com/in/)
+- [Github](https://github.com/rida-elbahtouri)
+- [Twitter](https://twitter.com/RElbahtouri)
+- [Linkedin](https://www.linkedin.com/in/rida-elbahtouri-36a8a7185/)
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Thanks to Microverse and The Odin Project. 
+- Thanks to Microverse and The Odin Project.
 
 ## 📝 License
 
