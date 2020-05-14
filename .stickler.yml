@@ -6,3 +6,4 @@ linters:
 files:
   ignore:
     - "assets/css/reset.css"
+    - "assets/Ashbury W01 Bold Italic"
