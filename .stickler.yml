@@ -7,5 +7,3 @@ files:
   ignore:
     - "assets/css/reset.css"
     - "assets/Ashbury W01 Bold Italic/specimen_files/*"
-    - "assets/Ashbury W01 Bold Italic/specimen_files/grid_12-825-55-15.css"
-    - "assets/Ashbury W01 Bold Italic/specimen_files/specimen_stylesheet.css"
