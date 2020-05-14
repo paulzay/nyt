@@ -371,8 +371,10 @@
   margin-left: 40px;
   border-top: 1px solid gray;
 }
-.most-popular h1 {
+.most-popular h1 a {
   margin-bottom: 20px;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
 }
 .list-articls a {
   text-decoration: none;
@@ -446,6 +448,7 @@ footer {
   text-decoration: none;
   color: #666;
   font-size: 11px;
+  margin-bottom: 30px;
 }
 .icon-footer {
   display: inline-block;
@@ -474,7 +477,17 @@ footer {
 }
 .fixed-footer {
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 3;
   border-top: 1px solid #666;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color:white;
+}
+.editor {
+  border-top: 1px solid gray;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
